@@ -5,7 +5,6 @@ import {TailwindProvider} from 'tailwindcss-react-native';
 import {TabBar} from '@ant-design/react-native'
 import { AntDesign  } from '@expo/vector-icons';
 
-
 export default function App() {
 
     const [selectedTab, setSelectedTab] = useState('redTab');
